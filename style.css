@@ -1,0 +1,97 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background: #bbbaba;
+	position: relative;
+}
+h1 {
+	text-align: center;
+	margin-top: 50px;
+}
+button {
+	outline: none;
+	border: none;
+	cursor: pointer;
+}
+.container-full {
+	position: absolute;
+	left: 50%;
+	margin: 20px 0 0 -170px;
+	box-shadow: 1px 2px 27px #676767, -1px -2px 3px #525252;
+}
+.result-container {
+	border: 1px solid #151313;
+	background: #211e1e;
+	padding: 20px;
+	font-size: 32px;
+	width: 350px;
+	padding-right: 22px;
+	text-align: right;
+	color: #ffffff;
+}
+.result-item {
+	font-size: 32px;
+}
+.alter-container {
+	width: 350px;
+	display: flex;
+	flex-flow: row nowrap;
+}
+.count-number {
+	width: 250px;
+	display: flex;
+	flex: 1 1 auto;
+	flex-flow: row wrap;
+}
+.count-number-in {
+	flex: 1 1 auto;
+	display: flex;
+	flex-flow: row wrap;
+}
+.modify-container {
+	flex: 1 1 auto;
+	display: flex;
+	flex-flow: column nowrap;
+}
+.number-list,
+.modify-val {
+	flex: 1 1 auto;
+	padding: 30px;
+	color: white;
+	font-size: 26px !important;
+	border: 1px solid #1e2123;
+	background: #222427;
+}
+.modify-val {
+	font-size: 25px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.number-list:hover,
+.modify-val:hover {
+	background: #1b1c1d;
+	cursor: pointer;
+}
+.close-btn {
+	background: #d20000;
+	font-size: 29px;
+	margin-right: -7px;
+	border: 1px solid #a70100;
+	border-radius: 2px;
+	color: #ffffff;
+}
+.success-btn {
+	background: #11b107;
+	width: 350px;
+	font-size: 25px;
+	color: white;
+	padding: 10px;
+	font-weight: bold;
+	transition: background 0.35s ease;
+}
+.success-btn:hover,
+.success-btn:focus {
+	background: #11b107;
+}
